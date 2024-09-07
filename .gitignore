@@ -1,0 +1,13 @@
+*.depend
+*.layout
+*.ncb
+*.suo
+*.vc*proj.user
+*.vc*proj.*.user
+Solutions/Backup
+Solutions/UpgradeLog.htm
+Steamworks
+*.sdf
+*.opensdf
+Solutions/*/.vs
+Solutions/build
