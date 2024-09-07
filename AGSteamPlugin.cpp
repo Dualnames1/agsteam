@@ -36,6 +36,12 @@ namespace AGSteam
             void OnEventReceived(UserStatsReceived_t *event) override;
         };
 
+        struct TextDismissedListener : public SteamEventListener<TextDismissedListener, FloatingGamepadTextInputDismissed_t>
+        {
+        private:
+            void OnEventReceived(FloatingGamepadTextInputDismissed_t* event) override;
+        };
+
         struct GameOverlayActivatedListener : public SteamEventListener<GameOverlayActivatedListener, GameOverlayActivated_t>
         {
         private:
@@ -49,8 +55,11 @@ namespace AGSteam
             static GameOverlayActivatedListener GAME_OVERLAY_ACTIVATED_LISTENER;
             static bool GAME_OVERLAY_ACTIVE;
             static bool INITIALIZED;
+            static bool GAME_TEXT_DISMISSED;
+            static bool ISONSTEAMDECK;
             static AGSteamPlugin PLUGIN;
             static UserStatsReceivedListener USER_STATS_RECEIVED_LISTENER;
+            static TextDismissedListener TEXT_DISMISSED_LISTENER;
         };
     }
 }
@@ -59,8 +68,12 @@ std::string AGSteamPlugin_Statics::FIND_LEADERBOARD;
 GameOverlayActivatedListener AGSteamPlugin_Statics::GAME_OVERLAY_ACTIVATED_LISTENER;
 bool AGSteamPlugin_Statics::GAME_OVERLAY_ACTIVE = false;
 bool AGSteamPlugin_Statics::INITIALIZED = false;
+bool AGSteamPlugin_Statics::ISONSTEAMDECK = false;
+bool AGSteamPlugin_Statics::GAME_TEXT_DISMISSED = false;
+
 AGSteamPlugin AGSteamPlugin_Statics::PLUGIN;
 UserStatsReceivedListener AGSteamPlugin_Statics::USER_STATS_RECEIVED_LISTENER;
+TextDismissedListener AGSteamPlugin_Statics::TEXT_DISMISSED_LISTENER;
 
 void UserStatsReceivedListener::OnEventReceived(UserStatsReceived_t *event)
 {
@@ -74,6 +87,14 @@ void UserStatsReceivedListener::OnEventReceived(UserStatsReceived_t *event)
     }
 }
 
+void TextDismissedListener::OnEventReceived(FloatingGamepadTextInputDismissed_t* event)
+{
+    AGSteamPlugin_Statics::GAME_TEXT_DISMISSED= true;
+    // a callback has been received, stat+achievement info is now accessible
+    
+}
+
+
 void GameOverlayActivatedListener::OnEventReceived(GameOverlayActivated_t *event)
 {
     AGSteamPlugin_Statics::GAME_OVERLAY_ACTIVE = event->m_bActive;
@@ -83,6 +104,8 @@ AGSteamPlugin& AGSteamPlugin::GetAGSteamPlugin() noexcept
 {
     return AGSteamPlugin_Statics::PLUGIN;
 }
+
+
 
 void AGSteamPlugin_Initialize() noexcept
 {
@@ -94,7 +117,9 @@ void AGSteamPlugin_Initialize() noexcept
 		}
         (void)AGSteamPlugin_Statics::GAME_OVERLAY_ACTIVATED_LISTENER; // ensure that game overlay listener is created
         (void)AGSteamPlugin_Statics::USER_STATS_RECEIVED_LISTENER; // ensure that user stats listener is created
+        (void)AGSteamPlugin_Statics::TEXT_DISMISSED_LISTENER; // ensure that text dismiised listener is created
 		SteamUserStats()->RequestCurrentStats();
+        
 	}
 }
 
@@ -104,6 +129,27 @@ bool AGSteamPlugin::IsInitialized() const noexcept
 	// this function also serves for the AGS property
 	return AGSteamPlugin_Statics::INITIALIZED;
 }
+
+bool AGSteamPlugin::IsOnSteamDeck() const noexcept
+{
+    // helper method for the plugin to ensure that the call to Steam is placed before any other Steam functions
+    AGSteamPlugin_Statics::ISONSTEAMDECK = SteamUtils()->IsSteamRunningOnSteamDeck();
+    return AGSteamPlugin_Statics::ISONSTEAMDECK;
+}
+
+
+bool AGSteamPlugin::IsTextDismissed() const noexcept
+{
+    // helper method for the plugin to ensure that the call to Steam is placed before any other Steam functions
+    // this function also serves for the AGS property
+    return AGSteamPlugin_Statics::GAME_TEXT_DISMISSED;
+}
+
+void AGSteamPlugin::SetStatus(bool status) const noexcept
+{
+    AGSteamPlugin_Statics::GAME_TEXT_DISMISSED = status;
+}
+
 
 void AGSteamPlugin::ResetStatsAndAchievements() const noexcept
 {

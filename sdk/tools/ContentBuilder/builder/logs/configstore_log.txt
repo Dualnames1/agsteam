@@ -1,0 +1,52 @@
+
+
+[2022-05-19 17:56:46] Failed to read store 'install' from 'D:\STEAM STRANGELAND\steamworks_sdk_153\sdk\tools\ContentBuilder\builder\config\config.vdf.tmp'
+[2022-05-19 17:56:46] Failed to read store 'install' from 'D:\STEAM STRANGELAND\steamworks_sdk_153\sdk\tools\ContentBuilder\builder\config\config.vdf.tmp'
+[2022-05-19 17:56:46] Failed to read store 'install' from 'D:\STEAM STRANGELAND\steamworks_sdk_153\sdk\tools\ContentBuilder\builder\config\config.vdf.tmp'
+[2022-05-19 17:56:46] Failed to read store 'install' from 'D:\STEAM STRANGELAND\steamworks_sdk_153\sdk\tools\ContentBuilder\builder\config\config.vdf.tmp'
+[2022-05-19 17:56:47] Flushed store 'install' to 'D:\STEAM STRANGELAND\steamworks_sdk_153\sdk\tools\ContentBuilder\builder\config\config.vdf'
+[2022-05-19 17:56:51] Flushed store 'install' to 'D:\STEAM STRANGELAND\steamworks_sdk_153\sdk\tools\ContentBuilder\builder\config\config.vdf'
+[2022-05-19 17:57:28] Flushed store 'install' to 'D:\STEAM STRANGELAND\steamworks_sdk_153\sdk\tools\ContentBuilder\builder\config\config.vdf'
+[2022-05-19 17:57:28] Failed to read store 'userlocal' from 'D:\STEAM STRANGELAND\steamworks_sdk_153\sdk\tools\ContentBuilder\builder\userdata\83687885\config\localconfig.vdf.tmp'
+[2022-05-19 17:57:29] Flushed store 'install' to 'D:\STEAM STRANGELAND\steamworks_sdk_153\sdk\tools\ContentBuilder\builder\config\config.vdf'
+[2022-05-19 17:57:29] Flushed store 'userlocal' to 'D:\STEAM STRANGELAND\steamworks_sdk_153\sdk\tools\ContentBuilder\builder\userdata\83687885\config\localconfig.vdf'
+[2022-05-19 17:57:30] Flushed store 'install' to 'D:\STEAM STRANGELAND\steamworks_sdk_153\sdk\tools\ContentBuilder\builder\config\config.vdf'
+[2022-05-19 17:57:31] Flushed store 'userlocal' to 'D:\STEAM STRANGELAND\steamworks_sdk_153\sdk\tools\ContentBuilder\builder\userdata\83687885\config\localconfig.vdf'
+[2022-05-19 17:57:34] Flushed store 'userlocal' to 'D:\STEAM STRANGELAND\steamworks_sdk_153\sdk\tools\ContentBuilder\builder\userdata\83687885\config\localconfig.vdf'
+[2022-05-19 17:57:36] Flushed store 'userlocal' to 'D:\STEAM STRANGELAND\steamworks_sdk_153\sdk\tools\ContentBuilder\builder\userdata\83687885\config\localconfig.vdf'
+[2022-05-19 18:11:19] Flushed store 'userlocal' to 'D:\STEAM STRANGELAND\steamworks_sdk_153\sdk\tools\ContentBuilder\builder\userdata\83687885\config\localconfig.vdf'
+[2022-05-19 18:24:56] Flushed store 'userlocal' to 'D:\STEAM STRANGELAND\steamworks_sdk_153\sdk\tools\ContentBuilder\builder\userdata\83687885\config\localconfig.vdf'
+[2022-05-19 18:38:42] Flushed store 'userlocal' to 'D:\STEAM STRANGELAND\steamworks_sdk_153\sdk\tools\ContentBuilder\builder\userdata\83687885\config\localconfig.vdf'
+[2022-05-19 18:40:58] Flushed store 'userlocal' to 'D:\STEAM STRANGELAND\steamworks_sdk_153\sdk\tools\ContentBuilder\builder\userdata\83687885\config\localconfig.vdf'
+[2022-05-19 18:42:13] Flushed store 'userlocal' to 'D:\STEAM STRANGELAND\steamworks_sdk_153\sdk\tools\ContentBuilder\builder\userdata\83687885\config\localconfig.vdf'
+[2022-05-19 18:52:57] Flushed store 'userlocal' to 'D:\STEAM STRANGELAND\steamworks_sdk_153\sdk\tools\ContentBuilder\builder\userdata\83687885\config\localconfig.vdf'
+[2022-05-19 18:53:25] Flushed store 'userlocal' to 'D:\STEAM STRANGELAND\steamworks_sdk_153\sdk\tools\ContentBuilder\builder\userdata\83687885\config\localconfig.vdf'
+[2022-05-19 18:54:14] Flushed store 'userlocal' to 'D:\STEAM STRANGELAND\steamworks_sdk_153\sdk\tools\ContentBuilder\builder\userdata\83687885\config\localconfig.vdf'
+[2022-05-19 18:55:27] Flushed store 'userlocal' to 'D:\STEAM STRANGELAND\steamworks_sdk_153\sdk\tools\ContentBuilder\builder\userdata\83687885\config\localconfig.vdf'
+
+
+[2022-05-19 20:23:23] Loaded store 'install' from 'D:\STEAM STRANGELAND\steamworks_sdk_153\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-05-19 20:23:23] Loaded store 'install' from 'D:\STEAM STRANGELAND\steamworks_sdk_153\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-05-19 20:23:23] Loaded store 'install' from 'D:\STEAM STRANGELAND\steamworks_sdk_153\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-05-19 20:23:23] Loaded store 'install' from 'D:\STEAM STRANGELAND\steamworks_sdk_153\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-05-19 20:23:23] Loaded store 'userlocal' from 'D:\STEAM STRANGELAND\steamworks_sdk_153\sdk\tools\ContentBuilder\builder\userdata\83687885\config\localconfig.vdf' successfully
+[2022-05-19 20:23:23] Loaded store 'install' from 'D:\STEAM STRANGELAND\steamworks_sdk_153\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2022-05-19 20:23:24] Flushed store 'install' to 'D:\STEAM STRANGELAND\steamworks_sdk_153\sdk\tools\ContentBuilder\builder\config\config.vdf'
+[2022-05-19 20:23:26] Flushed store 'install' to 'D:\STEAM STRANGELAND\steamworks_sdk_153\sdk\tools\ContentBuilder\builder\config\config.vdf'
+[2022-05-19 20:23:27] Flushed store 'userlocal' to 'D:\STEAM STRANGELAND\steamworks_sdk_153\sdk\tools\ContentBuilder\builder\userdata\83687885\config\localconfig.vdf'
+[2022-05-19 20:23:27] Flushed store 'install' to 'D:\STEAM STRANGELAND\steamworks_sdk_153\sdk\tools\ContentBuilder\builder\config\config.vdf'
+[2022-05-19 20:23:28] Flushed store 'userlocal' to 'D:\STEAM STRANGELAND\steamworks_sdk_153\sdk\tools\ContentBuilder\builder\userdata\83687885\config\localconfig.vdf'
+[2022-05-19 20:23:29] Flushed store 'install' to 'D:\STEAM STRANGELAND\steamworks_sdk_153\sdk\tools\ContentBuilder\builder\config\config.vdf'
+[2022-05-19 20:23:32] Flushed store 'userlocal' to 'D:\STEAM STRANGELAND\steamworks_sdk_153\sdk\tools\ContentBuilder\builder\userdata\83687885\config\localconfig.vdf'
+[2022-05-19 20:28:24] Flushed store 'userlocal' to 'D:\STEAM STRANGELAND\steamworks_sdk_153\sdk\tools\ContentBuilder\builder\userdata\83687885\config\localconfig.vdf'
+[2022-05-19 20:31:58] Flushed store 'userlocal' to 'D:\STEAM STRANGELAND\steamworks_sdk_153\sdk\tools\ContentBuilder\builder\userdata\83687885\config\localconfig.vdf'
+[2022-05-19 20:33:28] Flushed store 'userlocal' to 'D:\STEAM STRANGELAND\steamworks_sdk_153\sdk\tools\ContentBuilder\builder\userdata\83687885\config\localconfig.vdf'
+[2022-05-19 20:33:31] Roaming config - failed to load write-aside store from 'D:\STEAM STRANGELAND\steamworks_sdk_153\sdk\tools\ContentBuilder\builder\userdata\83687885\config\sharedconfig.vdf'
+[2022-05-19 20:33:31] Roaming config - read via RemoteStorage().FileRead
+[2022-05-19 20:33:31] Roaming config - integrating write-aside store into cloud store
+[2022-05-19 20:39:37] Flushed store 'userlocal' to 'D:\STEAM STRANGELAND\steamworks_sdk_153\sdk\tools\ContentBuilder\builder\userdata\83687885\config\localconfig.vdf'
+[2022-05-19 20:44:19] Flushed store 'userlocal' to 'D:\STEAM STRANGELAND\steamworks_sdk_153\sdk\tools\ContentBuilder\builder\userdata\83687885\config\localconfig.vdf'
+[2022-05-19 20:44:22] Flushed store 'userlocal' to 'D:\STEAM STRANGELAND\steamworks_sdk_153\sdk\tools\ContentBuilder\builder\userdata\83687885\config\localconfig.vdf'
+[2022-05-19 20:44:36] Flushed store 'userlocal' to 'D:\STEAM STRANGELAND\steamworks_sdk_153\sdk\tools\ContentBuilder\builder\userdata\83687885\config\localconfig.vdf'
+[2022-05-19 20:44:37] Flushed store 'userlocal' to 'D:\STEAM STRANGELAND\steamworks_sdk_153\sdk\tools\ContentBuilder\builder\userdata\83687885\config\localconfig.vdf'
+[2022-05-19 20:50:47] Flushed store 'userlocal' to 'D:\STEAM STRANGELAND\steamworks_sdk_153\sdk\tools\ContentBuilder\builder\userdata\83687885\config\localconfig.vdf'

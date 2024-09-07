@@ -27,10 +27,169 @@
     <ClInclude Include="..\..\ags2client\IClientAchievements.h" />
     <ClInclude Include="..\..\ags2client\IClientLeaderboards.h" />
     <ClInclude Include="..\..\ags2client\IClientStats.h" />
+    <ClInclude Include="..\..\agsplugin.h" />
     <ClInclude Include="..\..\AGSteamPlugin.h" />
     <ClInclude Include="..\..\SteamAchievements.h" />
     <ClInclude Include="..\..\SteamLeaderboards.h" />
     <ClInclude Include="..\..\SteamStats.h" />
+    <ClInclude Include="..\..\steam\agents.h" />
+    <ClInclude Include="..\..\steam\assert.h" />
+    <ClInclude Include="..\..\steam\CodeAnalysis\sourceannotations.h" />
+    <ClInclude Include="..\..\steam\CodeAnalysis\Warnings.h" />
+    <ClInclude Include="..\..\steam\comdef.h" />
+    <ClInclude Include="..\..\steam\comdefsp.h" />
+    <ClInclude Include="..\..\steam\comip.h" />
+    <ClInclude Include="..\..\steam\comutil.h" />
+    <ClInclude Include="..\..\steam\concrt.h" />
+    <ClInclude Include="..\..\steam\concrtrm.h" />
+    <ClInclude Include="..\..\steam\concurrent_queue.h" />
+    <ClInclude Include="..\..\steam\concurrent_vector.h" />
+    <ClInclude Include="..\..\steam\conio.h" />
+    <ClInclude Include="..\..\steam\crtassem.h" />
+    <ClInclude Include="..\..\steam\crtdbg.h" />
+    <ClInclude Include="..\..\steam\crtdefs.h" />
+    <ClInclude Include="..\..\steam\crtversion.h" />
+    <ClInclude Include="..\..\steam\crtwrn.h" />
+    <ClInclude Include="..\..\steam\ctype.h" />
+    <ClInclude Include="..\..\steam\dbgautoattach.h" />
+    <ClInclude Include="..\..\steam\delayimp.h" />
+    <ClInclude Include="..\..\steam\direct.h" />
+    <ClInclude Include="..\..\steam\dos.h" />
+    <ClInclude Include="..\..\steam\dvec.h" />
+    <ClInclude Include="..\..\steam\eh.h" />
+    <ClInclude Include="..\..\steam\emmintrin.h" />
+    <ClInclude Include="..\..\steam\errno.h" />
+    <ClInclude Include="..\..\steam\excpt.h" />
+    <ClInclude Include="..\..\steam\fcntl.h" />
+    <ClInclude Include="..\..\steam\float.h" />
+    <ClInclude Include="..\..\steam\fpieee.h" />
+    <ClInclude Include="..\..\steam\fvec.h" />
+    <ClInclude Include="..\..\steam\gcroot.h" />
+    <ClInclude Include="..\..\steam\immintrin.h" />
+    <ClInclude Include="..\..\steam\intrin.h" />
+    <ClInclude Include="..\..\steam\invkprxy.h" />
+    <ClInclude Include="..\..\steam\io.h" />
+    <ClInclude Include="..\..\steam\iso646.h" />
+    <ClInclude Include="..\..\steam\isteamapplist.h" />
+    <ClInclude Include="..\..\steam\isteamapps.h" />
+    <ClInclude Include="..\..\steam\isteamappticket.h" />
+    <ClInclude Include="..\..\steam\isteamclient.h" />
+    <ClInclude Include="..\..\steam\isteamcontroller.h" />
+    <ClInclude Include="..\..\steam\isteamfriends.h" />
+    <ClInclude Include="..\..\steam\isteamgamecoordinator.h" />
+    <ClInclude Include="..\..\steam\isteamgameserver.h" />
+    <ClInclude Include="..\..\steam\isteamgameserverstats.h" />
+    <ClInclude Include="..\..\steam\isteamhtmlsurface.h" />
+    <ClInclude Include="..\..\steam\isteamhttp.h" />
+    <ClInclude Include="..\..\steam\isteaminput.h" />
+    <ClInclude Include="..\..\steam\isteaminventory.h" />
+    <ClInclude Include="..\..\steam\isteammasterserverupdater.h" />
+    <ClInclude Include="..\..\steam\isteammatchmaking.h" />
+    <ClInclude Include="..\..\steam\isteammusic.h" />
+    <ClInclude Include="..\..\steam\isteammusicremote.h" />
+    <ClInclude Include="..\..\steam\isteamnetworking.h" />
+    <ClInclude Include="..\..\steam\isteamnetworkingmessages.h" />
+    <ClInclude Include="..\..\steam\isteamnetworkingsockets.h" />
+    <ClInclude Include="..\..\steam\isteamnetworkingutils.h" />
+    <ClInclude Include="..\..\steam\isteamparentalsettings.h" />
+    <ClInclude Include="..\..\steam\isteamps3overlayrenderer.h" />
+    <ClInclude Include="..\..\steam\isteamremoteplay.h" />
+    <ClInclude Include="..\..\steam\isteamremotestorage.h" />
+    <ClInclude Include="..\..\steam\isteamscreenshots.h" />
+    <ClInclude Include="..\..\steam\isteamugc.h" />
+    <ClInclude Include="..\..\steam\isteamuser.h" />
+    <ClInclude Include="..\..\steam\isteamuserstats.h" />
+    <ClInclude Include="..\..\steam\isteamutils.h" />
+    <ClInclude Include="..\..\steam\isteamvideo.h" />
+    <ClInclude Include="..\..\steam\ivec.h" />
+    <ClInclude Include="..\..\steam\limits.h" />
+    <ClInclude Include="..\..\steam\locale.h" />
+    <ClInclude Include="..\..\steam\malloc.h" />
+    <ClInclude Include="..\..\steam\matchmakingtypes.h" />
+    <ClInclude Include="..\..\steam\math.h" />
+    <ClInclude Include="..\..\steam\mbctype.h" />
+    <ClInclude Include="..\..\steam\mbstring.h" />
+    <ClInclude Include="..\..\steam\memory.h" />
+    <ClInclude Include="..\..\steam\minmax.h" />
+    <ClInclude Include="..\..\steam\mm3dnow.h" />
+    <ClInclude Include="..\..\steam\mmintrin.h" />
+    <ClInclude Include="..\..\steam\msclr\all.h" />
+    <ClInclude Include="..\..\steam\msclr\appdomain.h" />
+    <ClInclude Include="..\..\steam\msclr\auto_gcroot.h" />
+    <ClInclude Include="..\..\steam\msclr\auto_handle.h" />
+    <ClInclude Include="..\..\steam\msclr\com\ptr.h" />
+    <ClInclude Include="..\..\steam\msclr\event.h" />
+    <ClInclude Include="..\..\steam\msclr\gcroot.h" />
+    <ClInclude Include="..\..\steam\msclr\lock.h" />
+    <ClInclude Include="..\..\steam\msclr\marshal.h" />
+    <ClInclude Include="..\..\steam\msclr\marshal_atl.h" />
+    <ClInclude Include="..\..\steam\msclr\marshal_cppstd.h" />
+    <ClInclude Include="..\..\steam\msclr\marshal_windows.h" />
+    <ClInclude Include="..\..\steam\msclr\safebool.h" />
+    <ClInclude Include="..\..\steam\new.h" />
+    <ClInclude Include="..\..\steam\nmmintrin.h" />
+    <ClInclude Include="..\..\steam\omp.h" />
+    <ClInclude Include="..\..\steam\ompassem.h" />
+    <ClInclude Include="..\..\steam\penwin.h" />
+    <ClInclude Include="..\..\steam\pgobootrun.h" />
+    <ClInclude Include="..\..\steam\pmmintrin.h" />
+    <ClInclude Include="..\..\steam\ppl.h" />
+    <ClInclude Include="..\..\steam\process.h" />
+    <ClInclude Include="..\..\steam\rtcapi.h" />
+    <ClInclude Include="..\..\steam\safeint.h" />
+    <ClInclude Include="..\..\steam\safeint_internal.h" />
+    <ClInclude Include="..\..\steam\sal.h" />
+    <ClInclude Include="..\..\steam\search.h" />
+    <ClInclude Include="..\..\steam\setjmp.h" />
+    <ClInclude Include="..\..\steam\setjmpex.h" />
+    <ClInclude Include="..\..\steam\share.h" />
+    <ClInclude Include="..\..\steam\signal.h" />
+    <ClInclude Include="..\..\steam\smmintrin.h" />
+    <ClInclude Include="..\..\steam\srv.h" />
+    <ClInclude Include="..\..\steam\stdarg.h" />
+    <ClInclude Include="..\..\steam\stddef.h" />
+    <ClInclude Include="..\..\steam\stdexcpt.h" />
+    <ClInclude Include="..\..\steam\stdint.h" />
+    <ClInclude Include="..\..\steam\stdio.h" />
+    <ClInclude Include="..\..\steam\stdlib.h" />
+    <ClInclude Include="..\..\steam\steamclientpublic.h" />
+    <ClInclude Include="..\..\steam\steamdatagram_tickets.h" />
+    <ClInclude Include="..\..\steam\steamencryptedappticket.h" />
+    <ClInclude Include="..\..\steam\steamhttpenums.h" />
+    <ClInclude Include="..\..\steam\steamnetworkingtypes.h" />
+    <ClInclude Include="..\..\steam\steamps3params.h" />
+    <ClInclude Include="..\..\steam\steamtypes.h" />
+    <ClInclude Include="..\..\steam\steamuniverse.h" />
+    <ClInclude Include="..\..\steam\steam_api.h" />
+    <ClInclude Include="..\..\steam\steam_api_common.h" />
+    <ClInclude Include="..\..\steam\steam_api_flat.h" />
+    <ClInclude Include="..\..\steam\steam_api_internal.h" />
+    <ClInclude Include="..\..\steam\steam_gameserver.h" />
+    <ClInclude Include="..\..\steam\string.h" />
+    <ClInclude Include="..\..\steam\sys\locking.h" />
+    <ClInclude Include="..\..\steam\sys\stat.h" />
+    <ClInclude Include="..\..\steam\sys\timeb.h" />
+    <ClInclude Include="..\..\steam\sys\types.h" />
+    <ClInclude Include="..\..\steam\sys\utime.h" />
+    <ClInclude Include="..\..\steam\tchar.h" />
+    <ClInclude Include="..\..\steam\time.h" />
+    <ClInclude Include="..\..\steam\tmmintrin.h" />
+    <ClInclude Include="..\..\steam\typeinfo.h" />
+    <ClInclude Include="..\..\steam\use_ansi.h" />
+    <ClInclude Include="..\..\steam\vadefs.h" />
+    <ClInclude Include="..\..\steam\varargs.h" />
+    <ClInclude Include="..\..\steam\vcclr.h" />
+    <ClInclude Include="..\..\steam\wchar.h" />
+    <ClInclude Include="..\..\steam\wctype.h" />
+    <ClInclude Include="..\..\steam\wmiatlprov.h" />
+    <ClInclude Include="..\..\steam\wmmintrin.h" />
+    <ClInclude Include="..\..\steam\xkeycheck.h" />
+    <ClInclude Include="..\..\steam\xlocinfo.h" />
+    <ClInclude Include="..\..\steam\xmath.h" />
+    <ClInclude Include="..\..\steam\xmmintrin.h" />
+    <ClInclude Include="..\..\steam\ymath.h" />
+    <ClInclude Include="..\..\steam\yvals.h" />
+    <ClInclude Include="..\..\steam\_vcclrit.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\AGS2Client.cpp" />
@@ -43,6 +202,20 @@
     <ClCompile Include="..\..\SteamAchievements.cpp" />
     <ClCompile Include="..\..\SteamLeaderboards.cpp" />
     <ClCompile Include="..\..\SteamStats.cpp" />
+    <ClCompile Include="..\..\steam\delayhlp.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\steam\listing.inc" />
+    <None Include="..\..\steam\swprintf.inl" />
+    <None Include="..\..\steam\sys\stat.inl" />
+    <None Include="..\..\steam\sys\timeb.inl" />
+    <None Include="..\..\steam\sys\utime.inl" />
+    <None Include="..\..\steam\sys\wstat.inl" />
+    <None Include="..\..\steam\time.inl" />
+    <None Include="..\..\steam\wtime.inl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="..\..\steam\Manifest\dpiaware.manifest" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{0D0B26C8-4010-45E6-8080-9063A3CCA0CF}</ProjectGuid>
@@ -61,7 +234,7 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
-    <PlatformToolset>v141_xp</PlatformToolset>
+    <PlatformToolset>v141</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug-disjoint|Win32'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
@@ -124,7 +297,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Windows</SubSystem>
       <TargetMachine>MachineX86</TargetMachine>
-      <AdditionalLibraryDirectories>$(ProjectDir)../../../steamworks/142/sdk/redistributable_bin;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>D:\STEAM STRANGELAND\steamworks_sdk_153\sdk\redistributable_bin;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>steam_api.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>

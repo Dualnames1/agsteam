@@ -25,6 +25,9 @@ namespace AGSteam
 			DEFAULT_DTOR(AGSteamPlugin);
 			static AGSteamPlugin& GetAGSteamPlugin() noexcept;
 			bool IsInitialized() const noexcept override;
+			bool IsOnSteamDeck() const noexcept override;
+			bool IsTextDismissed() const noexcept override;
+			void SetStatus(bool status) const noexcept override;
 			void ResetStatsAndAchievements() const noexcept override;
 			char const* GetCurrentGameLanguage() const noexcept override;
 			char const* GetUserName() const noexcept override;

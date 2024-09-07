@@ -24,7 +24,9 @@ namespace AGSteam
 		public:
 			DEFAULT_DTOR(SteamAchievements);
 			static SteamAchievements& GetSteamAchievements() noexcept;
-			bool ResetAchievement(char const *ID) const noexcept override; // clears/resets an achievement
+			bool ShowText(char const* Desc, int charnum, char const* Text) const noexcept override; // clears/resets an achievement			
+			char const* GetTextEntered() const noexcept override; // clears/resets an achievement			
+			bool ResetAchievement(char const *ID) const noexcept override; // clears/resets an achievement			
 			bool IsAchievementAchieved(char const *ID) const noexcept override; // checks an achievement
 			bool SetAchievementAchieved(char const *ID) const noexcept override; // sets an achievement
 		};

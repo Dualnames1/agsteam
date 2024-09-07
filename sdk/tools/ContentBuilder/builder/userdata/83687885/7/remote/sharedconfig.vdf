@@ -1,0 +1,21 @@
+"UserRoamingConfigStore"
+{
+	"Software"
+	{
+		"Valve"
+		{
+			"Steam"
+			{
+				"StartMenuShortcutCheck"		"1"
+				"DesktopShortcutCheck"		"0"
+				"Tools"
+				{
+					"1070560"
+					{
+						"Registered"		"1"
+					}
+				}
+			}
+		}
+	}
+}

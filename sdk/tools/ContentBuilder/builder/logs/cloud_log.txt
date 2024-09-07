@@ -1,0 +1,46 @@
+
+
+[2022-05-19 17:57:28] [AppID 7] Starting sync (init,)
+[2022-05-19 17:57:28] [AppID 7] AutoCloud checking local state for user 83687885
+[2022-05-19 17:57:28] [AppID 7] Not running AutoCloud. No config data found
+[2022-05-19 17:57:28] [U:1:83687885] [AppID 7] Init cache request complete
+[2022-05-19 17:57:29] [AppID 7] YldWriteCacheDirectoryToFile - empty vector, deleting 'D:\STEAM STRANGELAND\steamworks_sdk_153\sdk\tools\ContentBuilder\builder/userdata/83687885/7/remotecache.vdf'
+[2022-05-19 17:57:33] [AppID 7] Starting sync (down,)
+[2022-05-19 17:57:34] [AppID 7] Attempting to sync from local change number '0' to global change number '11557978313634500044'
+[2022-05-19 17:57:34] [AppID 7] Need to download file serverbrowser_hist.vdf
+[2022-05-19 17:57:34] [AppID 7] Need to download file sharedconfig.vdf
+[2022-05-19 17:57:34] [AppID 7] HTTP download for file 'sharedconfig.vdf' from host 'objectstorage.eu-frankfurt-1.oraclecloud.com' beginning. . .
+[2022-05-19 17:57:34] [AppID 7] HTTP download for file 'serverbrowser_hist.vdf' from host 'steamcloud-dub.s3.dualstack.eu-west-1.amazonaws.com' beginning. . .
+[2022-05-19 17:57:35] [AppID 7] HTTP download for file 'sharedconfig.vdf' from host 'objectstorage.eu-frankfurt-1.oraclecloud.com' - Success.
+[2022-05-19 17:57:35] [AppID 7] Download OK for file sharedconfig.vdf
+[2022-05-19 17:57:36] [AppID 7] HTTP download for file 'serverbrowser_hist.vdf' from host 'steamcloud-dub.s3.dualstack.eu-west-1.amazonaws.com' - Success.
+[2022-05-19 17:57:36] [AppID 7] Download OK for file serverbrowser_hist.vdf
+[2022-05-19 17:57:36] [AppID 7] Download complete, result OK
+[2022-05-19 17:57:36] [AppID 7] Successfully synced to ChangeNumber 11557978313634500044
+[2022-05-19 17:57:36] [Roaming Config] OnRemoteStorageSyncedClient() - result OK
+[2022-05-19 17:57:36] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'D:\STEAM STRANGELAND\steamworks_sdk_153\sdk\tools\ContentBuilder\builder/userdata/83687885/7/remotecache.vdf'
+[2022-05-19 17:58:29] [Roaming Config] PerformSyncCloud - all sync'd up
+[2022-05-19 18:55:15] [UGC][1824532753023465826] Downloading UGC
+[2022-05-19 18:55:18] [UGC][1824532753023465826] Download completed
+
+
+[2022-05-19 20:23:23] [AppID 7] Starting sync (init,)
+[2022-05-19 20:23:23] [AppID 7] AutoCloud checking local state for user 83687885
+[2022-05-19 20:23:23] [U:1:83687885] [AppID 7] Init cache request complete
+[2022-05-19 20:23:24] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'D:\STEAM STRANGELAND\steamworks_sdk_153\sdk\tools\ContentBuilder\builder/userdata/83687885/7/remotecache.vdf'
+[2022-05-19 20:23:26] [Roaming Config] PerformSyncCloud - evaluating sync state
+[2022-05-19 20:23:26] [AppID 7] Starting sync (eval,)
+[2022-05-19 20:23:26] [AppID 7] AutoCloud checking local state for user 83687885
+[2022-05-19 20:23:27] [AppID 7] Currently already synced to global change number '11557978313634500044', should be nothing to download
+[2022-05-19 20:23:27] [AppID 7] File is in sync serverbrowser_hist.vdf
+[2022-05-19 20:23:27] [AppID 7] File is in sync sharedconfig.vdf
+[2022-05-19 20:23:27] [AppID 7] Eval complete
+[2022-05-19 20:23:27] [Roaming Config] OnRemoteStorageStateEvaluated - result OK
+[2022-05-19 20:23:27] [AppID 7] Starting sync (down,)
+[2022-05-19 20:23:27] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'D:\STEAM STRANGELAND\steamworks_sdk_153\sdk\tools\ContentBuilder\builder/userdata/83687885/7/remotecache.vdf'
+[2022-05-19 20:23:27] [AppID 7] Currently already synced to global change number '11557978313634500044', should be nothing to download
+[2022-05-19 20:23:27] [AppID 7] Download complete in build list
+[2022-05-19 20:23:27] [AppID 7] Successfully synced to ChangeNumber 0
+[2022-05-19 20:23:27] [Roaming Config] OnRemoteStorageSyncedClient() - result OK
+[2022-05-19 20:23:27] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'D:\STEAM STRANGELAND\steamworks_sdk_153\sdk\tools\ContentBuilder\builder/userdata/83687885/7/remotecache.vdf'
+[2022-05-19 20:24:27] [Roaming Config] PerformSyncCloud - all sync'd up

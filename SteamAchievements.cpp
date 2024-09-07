@@ -7,6 +7,8 @@
 #include "ags2client/IAGS2Client.h"
 #include "SteamAchievements.h"
 #include "steam/steam_api.h"
+
+
 using namespace AGSteam::Plugin;
 
 namespace AGSteam
@@ -27,6 +29,52 @@ SteamAchievements& SteamAchievements::GetSteamAchievements() noexcept
 {
     return SteamAchievements_Statics::ACHIEVEMENTS;
 }
+
+
+
+
+char const* SteamAchievements::GetTextEntered() const noexcept
+{
+    
+    const uint32 MAX_INPUT_LENGTH = 12 + 1;
+
+    uint32 length = SteamUtils()->GetEnteredGamepadTextLength();
+    char szTextInput[MAX_INPUT_LENGTH];
+    //*szTextInput = ""+TextInput_content;
+    
+    bool success = SteamUtils()->GetEnteredGamepadTextInput(szTextInput, length);
+    
+    
+    //strcpy(szTextInput, TextInput_content);
+
+    if (!success) return nullptr;
+    else
+    {
+        //GetAGSEngine()->AbortGame();
+        return szTextInput;
+    }
+
+    
+}
+
+
+
+bool SteamAchievements::ShowText(char const *Desc,int charnum, char const *Text) const noexcept
+{
+	if (!AGS2Client::GetClient()->IsInitialized()) return false;
+    
+    AGS2Client::GetClient()->SetStatus(false);
+    //AGSSteam_SetStatus(true)
+    SteamUtils()->ShowFloatingGamepadTextInput(k_EFloatingGamepadTextInputModeModeSingleLine, 0, 0, 640, 360);
+        //ShowGamepadTextInput(k_EGamepadTextInputModeNormal, k_EGamepadTextInputLineModeSingleLine, Desc, static_cast<uint32> (charnum), Text);
+    SteamAPI_RunCallbacks();
+	return true;
+	//return SteamUserStats()->StoreStats();
+}
+
+
+
+
 
 bool SteamAchievements::ResetAchievement(char const *ID) const noexcept
 {

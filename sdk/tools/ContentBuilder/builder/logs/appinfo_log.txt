@@ -1,0 +1,54 @@
+
+
+[2022-05-19 17:57:29] RequestAppInfoUpdate: AppIDs 7
+[2022-05-19 17:57:29] Change number 0->14860950, apps: 0/0, packages: 0/0
+[2022-05-19 17:57:29] Requesting 1 apps, 248 packages (meta data, 1024 prev attempts)
+[2022-05-19 17:57:30] Downloaded 1 apps via HTTP, 12 KB (3 KB compressed)
+[2022-05-19 17:57:30] Requesting 0 apps, 248 packages (full data, 1024 prev attempts)
+[2022-05-19 17:57:31] UpdatesJob: finished OK, apps updated 1 (12 KB), packages updated 248 (52 KB)
+[2022-05-19 17:57:31] Requesting 461 apps, 0 packages (meta data, 1024 prev attempts)
+[2022-05-19 17:57:31] Requested 81 app access tokens, 79 received, 2 denied
+[2022-05-19 17:57:32] Updated SHAs with 79 new access tokens
+[2022-05-19 17:57:32] Downloaded 27 apps via HTTP, 842 KB (169 KB compressed)
+[2022-05-19 17:57:32] Requesting 434 apps, 0 packages (full data, 1024 prev attempts)
+[2022-05-19 17:57:33] UpdatesJob: finished OK, apps updated 461 (1785 KB), packages updated 0 (0 KB)
+[2022-05-19 17:57:48] Starting async write D:\STEAM STRANGELAND\steamworks_sdk_153\sdk\tools\ContentBuilder\builder/appcache/appinfo.vdf (1354582 bytes)
+[2022-05-19 18:11:18] Packages changed: 
+[2022-05-19 18:11:18] Apps changed: 
+[2022-05-19 18:11:18] Change number 14860950->14861208, apps: 0/179, packages: 0/24
+[2022-05-19 18:24:54] Packages changed: 
+[2022-05-19 18:24:54] Apps changed: 218620=14861320,
+[2022-05-19 18:24:54] Change number 14861208->14861333, apps: 1/96, packages: 0/12
+[2022-05-19 18:24:54] Requesting 1 apps, 0 packages (meta data, 1024 prev attempts)
+[2022-05-19 18:24:56] Downloaded 1 apps via HTTP, 126 KB (29 KB compressed)
+[2022-05-19 18:24:56] UpdatesJob: finished OK, apps updated 1 (126 KB), packages updated 0 (0 KB)
+[2022-05-19 18:25:11] Starting async write D:\STEAM STRANGELAND\steamworks_sdk_153\sdk\tools\ContentBuilder\builder/appcache/appinfo.vdf (1354582 bytes)
+[2022-05-19 18:38:42] Packages changed: 
+[2022-05-19 18:38:42] Apps changed: 
+[2022-05-19 18:38:42] Change number 14861333->14861523, apps: 0/94, packages: 0/79
+[2022-05-19 18:54:13] Packages changed: 
+[2022-05-19 18:54:13] Apps changed: 1042420=14861533,
+[2022-05-19 18:54:13] Change number 14861523->14861688, apps: 1/106, packages: 0/25
+[2022-05-19 18:54:13] Requesting 1 apps, 0 packages (meta data, 1024 prev attempts)
+[2022-05-19 18:54:14] Requesting 1 apps, 0 packages (full data, 1024 prev attempts)
+[2022-05-19 18:54:14] UpdatesJob: finished OK, apps updated 1 (5 KB), packages updated 0 (0 KB)
+[2022-05-19 18:54:29] Starting async write D:\STEAM STRANGELAND\steamworks_sdk_153\sdk\tools\ContentBuilder\builder/appcache/appinfo.vdf (1354582 bytes)
+
+
+[2022-05-19 20:23:26] RequestAppInfoUpdate: AppIDs 7
+[2022-05-19 20:23:27] Packages changed: force all
+[2022-05-19 20:23:27] Apps changed: 218620=14862110,1874900=14861741,
+[2022-05-19 20:23:27] Change number 14861688->14862744, apps: 2/604, packages: 0/0
+[2022-05-19 20:23:27] Requesting 5 apps, 248 packages (meta data, 1024 prev attempts)
+[2022-05-19 20:23:27] Requested 2 app access tokens, 0 received, 2 denied
+[2022-05-19 20:23:28] Downloaded 1 apps via HTTP, 126 KB (29 KB compressed)
+[2022-05-19 20:23:28] Requesting 1 apps, 0 packages (full data, 1024 prev attempts)
+[2022-05-19 20:23:28] UpdatesJob: finished OK, apps updated 2 (131 KB), packages updated 0 (0 KB)
+[2022-05-19 20:23:43] Starting async write D:\STEAM STRANGELAND\steamworks_sdk_153\sdk\tools\ContentBuilder\builder/appcache/appinfo.vdf (1355269 bytes)
+[2022-05-19 20:39:36] Packages changed: 
+[2022-05-19 20:39:36] Apps changed: 1493710=14862819,336140=14862805,
+[2022-05-19 20:39:36] Change number 14862744->14862882, apps: 2/99, packages: 0/26
+[2022-05-19 20:39:36] Requesting 2 apps, 0 packages (meta data, 1024 prev attempts)
+[2022-05-19 20:39:36] Requesting 2 apps, 0 packages (full data, 1024 prev attempts)
+[2022-05-19 20:39:37] UpdatesJob: finished OK, apps updated 2 (9 KB), packages updated 0 (0 KB)
+[2022-05-19 20:39:52] Starting async write D:\STEAM STRANGELAND\steamworks_sdk_153\sdk\tools\ContentBuilder\builder/appcache/appinfo.vdf (1355540 bytes)

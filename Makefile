@@ -4,13 +4,13 @@
 PATH_SRC=.
 PATH_AGS2CLIENT=$(PATH_SRC)/ags2client
 # path to Steamworks sdk folder may be passed in from command line
-PATH_STEAMWORKS?=$(PATH_SRC)/../steamworks/142/sdk
+PATH_STEAMWORKS?=$(PATH_SRC)/sdk
 PATH_STEAMWORKS_INC=$(PATH_STEAMWORKS)/public
 PATH_STEAMWORKS_LIB=$(PATH_STEAMWORKS)/redistributable_bin
 PATH_BUILD=$(PATH_SRC)/Solutions/build
 SRCS=ags2client/IAGS2Client.cpp ags2client/IClientAchievements.cpp ags2client/IClientLeaderboards.cpp \
 	ags2client/IClientStats.cpp ags2client/main.cpp AGS2Client.cpp AGSteamPlugin.cpp \
-	SteamAchievements.cpp SteamLeaderboards.cpp SteamStats.cpp
+	SteamAchievements.cpp SteamLeaderboards.cpp SteamStats.cpp   
 # .o object files for ags2client end up in a separate directory, but this is fine
 OBJS=$(patsubst %.cpp,%.o,$(SRCS))
 CXXFLAGS=-g -Wall -std=c++11 -O2 -fPIC -I$(PATH_STEAMWORKS_INC)
