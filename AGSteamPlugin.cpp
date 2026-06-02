@@ -91,7 +91,7 @@ void TextDismissedListener::OnEventReceived(FloatingGamepadTextInputDismissed_t*
 {
     AGSteamPlugin_Statics::GAME_TEXT_DISMISSED= true;
     // a callback has been received, stat+achievement info is now accessible
-    
+
 }
 
 
@@ -119,7 +119,7 @@ void AGSteamPlugin_Initialize() noexcept
         (void)AGSteamPlugin_Statics::USER_STATS_RECEIVED_LISTENER; // ensure that user stats listener is created
         (void)AGSteamPlugin_Statics::TEXT_DISMISSED_LISTENER; // ensure that text dismiised listener is created
 		SteamUserStats()->RequestCurrentStats();
-        
+
 	}
 }
 

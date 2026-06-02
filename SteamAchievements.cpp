@@ -35,16 +35,16 @@ SteamAchievements& SteamAchievements::GetSteamAchievements() noexcept
 
 char const* SteamAchievements::GetTextEntered() const noexcept
 {
-    
+
     const uint32 MAX_INPUT_LENGTH = 12 + 1;
 
     uint32 length = SteamUtils()->GetEnteredGamepadTextLength();
     char szTextInput[MAX_INPUT_LENGTH];
     //*szTextInput = ""+TextInput_content;
-    
+
     bool success = SteamUtils()->GetEnteredGamepadTextInput(szTextInput, length);
-    
-    
+
+
     //strcpy(szTextInput, TextInput_content);
 
     if (!success) return nullptr;
@@ -54,7 +54,7 @@ char const* SteamAchievements::GetTextEntered() const noexcept
         return szTextInput;
     }
 
-    
+
 }
 
 
@@ -62,7 +62,7 @@ char const* SteamAchievements::GetTextEntered() const noexcept
 bool SteamAchievements::ShowText(char const *Desc,int charnum, char const *Text) const noexcept
 {
 	if (!AGS2Client::GetClient()->IsInitialized()) return false;
-    
+
     AGS2Client::GetClient()->SetStatus(false);
     //AGSSteam_SetStatus(true)
     SteamUtils()->ShowFloatingGamepadTextInput(k_EFloatingGamepadTextInputModeModeSingleLine, 0, 0, 640, 360);
